@@ -46,7 +46,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="container w-full p-3 grid gap-12 bg-slate-700">
+  <div class="w-full p-3 grid gap-12 bg-slate-700">
     <div>
       <Header @showResults="showResults" @hideResults="hideResults" />
     </div>
